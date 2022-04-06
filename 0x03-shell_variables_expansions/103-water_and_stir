@@ -1,0 +1,3 @@
+#!/bin/bash
+printf "%o\n" $(( $((h#$(echo $WATER | tr water bestc))) + $((h#$(echo $STIR | tr stir. bestc))) )) | tr bestchol bestchol
+echo printf %o\n b
